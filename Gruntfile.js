@@ -10,9 +10,9 @@ module.exports = function (grunt) {
         'gitbook': {
             development: {
                 input: "./",
-                title: "Test Book",
-                description: "The entire Pro Git book.",
-                github: "martynchamberlin/GitBook"
+                title: "GLPI Book",
+                description: "Free IT and Asset Management Software.",
+                github: "ajsb85/glpi-project.org"
             }
         },
         'gh-pages': {
