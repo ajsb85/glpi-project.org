@@ -1,0 +1,34 @@
+{
+  "name": "glpi-project.org",
+  "version": "0.1.0",
+  "description": "Free IT and Asset Management Software",
+  "main": "book.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajsb85/glpi-project.org.git"
+  },
+  "keywords": [
+    "gpli",
+    "it",
+    "assets"
+  ],
+  "author": "Alexander J. Salas B. <a.salas@ieee.org> (http://ajsb85.com)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ajsb85/glpi-project.org/issues"
+  },
+  "homepage": "https://github.com/ajsb85/glpi-project.org#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-gh-pages": "^1.0.0",
+    "grunt-gitbook": "^1.5.0",
+    "grunt-http-server": "^1.14.0"
+  },
+  "peerDependencies": {
+      "grunt": "~0.4.5"
+  }
+}
